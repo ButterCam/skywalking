@@ -35,7 +35,7 @@ segmentItems:
             spanLayer: RPCFramework
             startTime: nq 0
             endTime: nq 0
-            componentId: 0
+            componentId: 23
             componentName: ''
             isError: false
             spanType: Entry
@@ -55,7 +55,7 @@ segmentItems:
             spanLayer: RPCFramework
             startTime: nq 0
             endTime: nq 0
-            componentId: 0
+            componentId: 23
             componentName: ''
             isError: false
             spanType: Entry
@@ -75,7 +75,7 @@ segmentItems:
             spanLayer: RPCFramework
             startTime: nq 0
             endTime: nq 0
-            componentId: 0
+            componentId: 23
             componentName: ''
             isError: false
             spanType: Entry
