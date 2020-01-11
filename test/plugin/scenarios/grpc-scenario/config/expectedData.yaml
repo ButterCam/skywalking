@@ -19,7 +19,7 @@ registryItems:
   instances:
     - {grpc-scenario: 1}
   operationNames:
-    - grpc-scenario: [Greeter.sayHello, GreeterBlocking.sayHello,
+    - grpc-scenario: [Greeter.sayHello, GreeterBlocking.sayHello,GreeterBlockingError.sayHello,
                       /grpc-scenario/case/grpc-scenario]
   heartbeat: []
 segmentItems:
@@ -35,7 +35,7 @@ segmentItems:
             spanLayer: RPCFramework
             startTime: nq 0
             endTime: nq 0
-            componentId: 23
+            componentId: 0
             componentName: ''
             isError: false
             spanType: Entry
@@ -55,7 +55,7 @@ segmentItems:
             spanLayer: RPCFramework
             startTime: nq 0
             endTime: nq 0
-            componentId: 23
+            componentId: 0
             componentName: ''
             isError: false
             spanType: Entry
@@ -77,7 +77,7 @@ segmentItems:
             endTime: nq 0
             componentId: 0
             componentName: ''
-            isError: true
+            isError: false
             spanType: Entry
             peer: ''
             peerId: 0
@@ -202,7 +202,7 @@ segmentItems:
                  entryServiceInstanceId: 1}
       - segmentId: not null
         spans:
-          - operationName: Greeter.sayHello/client/Request/onComplete
+          - operationName: Greeter.sayHello/server/Request/onComplete
             operationId: 0
             parentSpanId: -1
             spanId: 0
@@ -220,7 +220,7 @@ segmentItems:
                  entryEndpointId: -1, refType: CrossProcess, parentSpanId: 0, parentTraceSegmentId: not null,
                  parentServiceInstanceId: 1, networkAddress: '', entryEndpoint: '',
                  entryServiceInstanceId: 1}
-          - operationName: Greeter.sayHello/client/Response/onClose
+          - operationName: Greeter.sayHello/server/Response/onClose
             operationId: 0
             parentSpanId: 0
             spanId: 1
@@ -249,7 +249,7 @@ segmentItems:
             endTime: nq 0
             componentId: 0
             componentName: ''
-            isError: true
+            isError: false
             spanType: Local
             peer: ''
             peerId: 0
