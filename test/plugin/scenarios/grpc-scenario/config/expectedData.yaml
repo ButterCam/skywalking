@@ -106,7 +106,7 @@ segmentItems:
                  entryEndpointId: -1, refType: CrossProcess, parentSpanId: 0, parentTraceSegmentId: not null,
                  parentServiceInstanceId: 1, networkAddress: '', entryEndpoint: '',
                  entryServiceInstanceId: 1}
-          - operationName: GreeterBlocking.sayHello/server/Request/onClose
+          - operationName: GreeterBlocking.sayHello/server/Response/onClose
             operationId: 0
             parentSpanId: 0
             spanId: 1
@@ -258,7 +258,7 @@ segmentItems:
                  entryEndpointId: -1, refType: CrossProcess, parentSpanId: 0, parentTraceSegmentId: not null,
                  parentServiceInstanceId: 1, networkAddress: '', entryEndpoint: '',
                  entryServiceInstanceId: 1}
-          - operationName: GreeterBlocking.sayHello/server/Request/onClose
+          - operationName: GreeterBlocking.sayHello/server/Response/onClose
             operationId: 0
             parentSpanId: 0
             spanId: 1
